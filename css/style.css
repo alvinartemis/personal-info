@@ -637,7 +637,23 @@ footer {
    RESPONSIVE
 ========================= */
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
+
+    #mainNav .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #mainNav .navbar-brand {
+        font-size: 1.1rem;
+        margin-right: 10px;
+    }
+
+    #mainNav .navbar-toggler {
+        margin-left: auto;
+        flex-shrink: 0;
+    }
 
     .hero-section {
         text-align: center;
