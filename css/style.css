@@ -143,6 +143,19 @@ h6,
     position: relative;
 }
 
+.navbar-profile {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform 0.2s ease;
+}
+
+.navbar-profile:hover {
+    transform: scale(1.08);
+}
+
 
 .profile-image {
     width: 330px;
